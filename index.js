@@ -47,7 +47,7 @@ client.on('ready', () => {
 
   // memberCount(client)
   let activities = [
-    "Estou na versão beta 1",
+    "Estou na versão 1.0",
     `${client.channels.cache.size} canais!`,
     `${client.users.cache.size} usuários`
   ],
