@@ -1,0 +1,9 @@
+{
+    "prefix": ".",
+    "bot_age": 1,
+    "words_array": ["Olá", "Tchau"],
+    "bot_info":{
+        "name": "CoEduca BOT",
+        "version": 1.0
+    }
+}
