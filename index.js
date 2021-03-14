@@ -1,7 +1,6 @@
 const fs = require('fs')
 require("dotenv").config();
 const {prefix, words_array, bot_age, bot_info, helpmessage } = require('./config.json');
-const { bot_token } = require('./token.json')
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -103,4 +102,4 @@ client.on('message', message => {
 });
 
 
-client.login(bot_token);
+client.login(process.env.TOKEN);

@@ -7,7 +7,7 @@ COPY . .
 RUN npm prune --production
 RUN /usr/local/bin/node-prune
 
-FROM node:12-alpine
+FROM node:15-alpine
 WORKDIR /usr/src/app
 COPY --from=builder . .
 EXPOSE 3001
